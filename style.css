@@ -1,0 +1,38 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+.inicial {
+	position:  relative;
+	margin:  0 auto;
+}
+#logo {
+	display: block;
+	position: absolute;
+	width: 292px;
+	height: 141px;
+	left: 121px;
+	top: 98px;
+}
+hr {
+	position: absolute;
+	width: 391.02px;
+	height: 0px;
+	left: 120.98px;
+	top: 267.23px;
+	border: 4px solid; 
+	color: #029456;
+}
+h2 {
+	position: absolute;
+	width: 415px;
+	height: 62px;
+	left: 121px;
+	top: 303px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 37px;
+	line-height: 46px;
+	color: #029456;
+}
+
+
