@@ -61,7 +61,7 @@ h3 {
 	background: transparent;
 }
 input[type="text"]::placeholder {
-	color: #999999;
+	color: rgba(255, 255, 255, 0.8);
 }
 input[type="password"]::placeholder {
 	color: rgba(255, 255, 255, 0.8);
@@ -70,88 +70,81 @@ input[type="password"]::placeholder {
 	position: absolute;
 	width: 248px;
 	height: 21px;
-	right: 187px;
+	right: 185px;
 	top: calc(50% - 21px/2 - 123.5px);
 	font-family: Quicksand;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 18px;
-	line-height: 22px;
-	color: #999999;
+	font-size: 16px;
+	line-height: 20px;
+	color: rgba(255, 255, 255, 0.8);
 }
 #linha-usuario {
 	position: absolute;
 	width: 357px;
 	height: 0px;
-	right: 94px;
+	right: 92px;
 	top: calc(50% - 0px/2 - 105px);
-	border: 1px solid #999999;
+	border: 1px solid #FFFFFF;
 }
 #senha {
 	position: absolute;
 	width: 54px;
 	height: 20px;
-	right: 381px;
+	right: 379px;
 	top: calc(50% - 20px/2 - 63px);
 	font-family: Quicksand;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 18px;
-	line-height: 22px;
+	font-size: 16px;
+	line-height: 20px;
 	color: rgba(255, 255, 255, 0.8);
 }
 #linha-senha {
 	position: absolute;
 	width: 357px;
 	height: 0px;
-	right: 94px;
+	right: 92px;
 	top: calc(50% - 0px/2 - 45px);
-	border: 1px solid #FFFFFF;
-}
-#confirmar-senha {
-	position: absolute;
-	width: 146px;
-	height: 20px;
-	right: 289px;
-	top: calc(50% - 20px/2 - 3px);
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
-	line-height: 22px;
-	color: rgba(255, 255, 255, 0.8);
-	}
-#linha-confirm-senha {
-	position: absolute;
-	width: 357px;
-	height: 0px;
-	right: 94px;
-	top: calc(50% - 0px/2 + 15px);
 	border: 1px solid #FFFFFF;
 }
 input[type="submit"] {
 	position: absolute;
 	width: 357px;
 	height: 52px;
-	right: 94px;
-	top: calc(50% - 52px/2 + 105px);
+	right: 92px;
+	top: calc(50% - 52px/2 + 45px);
 	background: #01321E;
 	border-radius: 8px;
 }
-input[value="cadastrar"] {
+input[value="entrar"] {
 	text-transform: uppercase;
 }
-.cadastrar {
+.entrar {
 	position: absolute;
 	width: 357px;
 	height: 20px;
-	right: 94px;
-	top: calc(50% - 20px/2 + 105px);
+	right: 92px;
+	top: calc(50% - 20px/2 + 45px);
 	font-family: Quicksand;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 18px;
-	line-height: 22px;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	color: #FFFFFF;
+}
+a {
+	position: absolute;
+	width: 546px;
+	height: 15px;
+	right: 0px;
+	top: calc(50% - 15px/2 + 94.5px);
+	font-family: Quicksand;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 15px;
 	text-align: center;
 	color: #FFFFFF;
 }
