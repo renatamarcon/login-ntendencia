@@ -1,0 +1,161 @@
+body {
+	font-family: 'Quicksand', sans-serif;
+}
+.inicial {
+	position:  relative;
+	margin:  0 auto;
+}
+#logo {
+	display: block;
+	position: absolute;
+	width: 292px;
+	height: 141px;
+	left: 121px;
+	top: 98px;
+}
+#linha-header {
+	position: absolute;
+	width: 391.02px;
+	height: 0px;
+	left: 120.98px;
+	top: 267.23px;
+	border: 4px solid; 
+	color: #029456;
+}
+h2 {
+	position: absolute;
+	width: 415px;
+	height: 62px;
+	left: 121px;
+	top: 303px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 37px;
+	line-height: 46px;
+	color: #029456;
+}
+.caixa-form {
+	position: absolute;
+	width: 546px;
+	right: 0px;
+	top: 0%;
+	bottom: 0%;
+	background: #029456;
+}
+h3 {
+	position: absolute;
+	width: 546px;
+	height: 35px;
+	right: 0px;
+	top: 135px;
+	font-family: Quicksand;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 35px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.input-padrao {
+	border: none;
+	background: transparent;
+}
+input[type="text"]::placeholder {
+	color: #999999;
+}
+input[type="password"]::placeholder {
+	color: rgba(255, 255, 255, 0.8);
+}
+#usuario {
+	position: absolute;
+	width: 248px;
+	height: 21px;
+	right: 187px;
+	top: calc(50% - 21px/2 - 123.5px);
+	font-family: Quicksand;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	color: #999999;
+}
+#linha-usuario {
+	position: absolute;
+	width: 357px;
+	height: 0px;
+	right: 94px;
+	top: calc(50% - 0px/2 - 105px);
+	border: 1px solid #999999;
+}
+#senha {
+	position: absolute;
+	width: 54px;
+	height: 20px;
+	right: 381px;
+	top: calc(50% - 20px/2 - 63px);
+	font-family: Quicksand;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	color: rgba(255, 255, 255, 0.8);
+}
+#linha-senha {
+	position: absolute;
+	width: 357px;
+	height: 0px;
+	right: 94px;
+	top: calc(50% - 0px/2 - 45px);
+	border: 1px solid #FFFFFF;
+}
+#confirmar-senha {
+	position: absolute;
+	width: 146px;
+	height: 20px;
+	right: 289px;
+	top: calc(50% - 20px/2 - 3px);
+	font-family: Quicksand;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	color: rgba(255, 255, 255, 0.8);
+	}
+#linha-confirm-senha {
+	position: absolute;
+	width: 357px;
+	height: 0px;
+	right: 94px;
+	top: calc(50% - 0px/2 + 15px);
+	border: 1px solid #FFFFFF;
+}
+input[type="submit"] {
+	position: absolute;
+	width: 357px;
+	height: 52px;
+	right: 94px;
+	top: calc(50% - 52px/2 + 105px);
+	background: #01321E;
+	border-radius: 8px;
+}
+input[value="cadastrar"] {
+	text-transform: uppercase;
+}
+.cadastrar {
+	position: absolute;
+	width: 357px;
+	height: 20px;
+	right: 94px;
+	top: calc(50% - 20px/2 + 105px);
+	font-family: Quicksand;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+
+
+
