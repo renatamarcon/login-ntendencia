@@ -56,58 +56,29 @@ h3 {
 	text-align: center;
 	color: #FFFFFF;
 }
-.input-padrao {
-	border: none;
+input {
+	border: 0;
+	padding: 8px 16px;
+	margin-left: 94px;
 	background: transparent;
+	font-family: Quicksand;
+	font-size: 16px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.8);
 }
-input[type="text"]::placeholder {
-	color: rgba(255, 255, 255, 0.8);
-}
-input[type="password"]::placeholder {
+input::placeholder {
 	color: rgba(255, 255, 255, 0.8);
 }
 #usuario {
 	position: absolute;
-	width: 248px;
-	height: 21px;
-	right: 185px;
+	width: 325px;
 	top: calc(50% - 21px/2 - 123.5px);
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	line-height: 20px;
-	color: rgba(255, 255, 255, 0.8);
-}
-#linha-usuario {
-	position: absolute;
-	width: 357px;
-	height: 0px;
-	right: 92px;
-	top: calc(50% - 0px/2 - 105px);
-	border: 1px solid #FFFFFF;
 }
 #senha {
 	position: absolute;
-	width: 54px;
-	height: 20px;
-	right: 379px;
+	width: 325px;
 	top: calc(50% - 20px/2 - 63px);
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	line-height: 20px;
-	color: rgba(255, 255, 255, 0.8);
 }
-#linha-senha {
-	position: absolute;
-	width: 357px;
-	height: 0px;
-	right: 92px;
-	top: calc(50% - 0px/2 - 45px);
-	border: 1px solid #FFFFFF;
-}
+
 input[type="submit"] {
 	position: absolute;
 	width: 357px;
@@ -148,7 +119,3 @@ a {
 	text-align: center;
 	color: #FFFFFF;
 }
-
-
-
-
